@@ -360,8 +360,4 @@ if (!Array.prototype.every) {
       }
       return true;
   }
-}
-
-
-
-
+};
