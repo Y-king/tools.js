@@ -11,8 +11,8 @@ var inherit = (function(){
     return function(Target,Origin){
         F.prototype = Origin.prototype;
         Target.prototype = new F();
-        Target.prototype.constuctor = Target;
-        Target.prototype.uber = Origin;
+        Target.prototype.constructor = Target;
+        Target.prototype.uber = Origin.prototype;
     }
 }())
 
