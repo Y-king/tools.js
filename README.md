@@ -64,5 +64,5 @@
 20.every 兼容
 
 
-
+21.查询字符串参数 getQueryStringArgus
 
